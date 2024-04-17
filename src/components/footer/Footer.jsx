@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <a
-          href="www.linkedin.com/in/valeriane-sudre-chevalier"
+          href="https://linkedin.com/in/valeriane-sudre-chevalier"
           target="_blank"
           rel="noopener noreferrer"
         >
