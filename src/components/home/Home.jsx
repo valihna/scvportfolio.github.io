@@ -1,23 +1,23 @@
-import Navbar from "../navbar/Navbar";
+// import Navbar from "../navbar/Navbar";
 import About from "../about/About";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
-import Footer from "../footer/Footer";
+// import Footer from "../footer/Footer";
 
 function Home() {
   return (
     <div>
-      <div className="navbar">
+      {/* <div className="navbar">
         <Navbar />
-      </div>
+      </div> */}
       <div className="cartes-home">
         <About />
         <Projects />
         <Skills />
       </div>
-      <div className="footer">
+      {/* <div className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,14 +1,5 @@
-import Footer from "../footer/Footer";
-
 function About() {
-  return (
-    <div>
-      About
-      <div className="footer">
-        <Footer />
-      </div>
-    </div>
-  );
+  return <div>about</div>;
 }
 
 export default About;

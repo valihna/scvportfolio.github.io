@@ -1,12 +1,13 @@
-import Footer from "../footer/Footer";
+// import Nav
+// import Footer from "../footer/Footer";
 
 function Contact() {
   return (
     <div>
       Contact
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
