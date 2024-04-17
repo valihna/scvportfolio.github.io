@@ -1,15 +1,16 @@
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+// import Navbar from "../navbar/Navbar";
+// import Footer from "../footer/Footer";
 
 function Projects() {
   return (
     <div>
-      <div className="navbar">
+      projects
+      {/* <div className="navbar">
         <Navbar />
       </div>
       <div className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }

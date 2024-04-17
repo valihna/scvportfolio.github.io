@@ -1,15 +1,13 @@
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+// import Nav
+// import Footer from "../footer/Footer";
 
 function Contact() {
   return (
     <div>
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <div>
+      Contact
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }

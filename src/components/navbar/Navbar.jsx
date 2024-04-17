@@ -1,9 +1,10 @@
-import { Outlet } from "react-router-dom";
 import { useRef, useState } from "react";
 import { useClickAway } from "react-use";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { routes } from "./routes";
+
+// import "Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -13,9 +14,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <Outlet />
       <div ref={ref} className="lg:hidden">
-        <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
+        <Hamburger toggled={isOpen} right={10} size={20} toggle={setOpen} />
         <AnimatePresence>
           {isOpen && (
             <motion.div
