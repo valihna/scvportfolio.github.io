@@ -5,14 +5,17 @@
   text-align: center;
 }
 
-.picture {
+.vsc {
   height: 6em;
+  font-size: 40px;
+  border-radius: 45% 45%;
   padding: 1.5em;
+  filter: grayscale(80%);
   will-change: filter;
   transition: filter 300ms;
 }
-.picture:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.vsc:hover {
+  filter: drop-shadow(0 0 2em hsla(45, 100%, 70%, 0.667));
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
