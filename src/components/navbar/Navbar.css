@@ -1,3 +1,56 @@
-/* .hamburger {
-  right: 10%;
-} */
+/* Navbar.css */
+.nav {
+  width: 100vw;
+  height: 6rem;
+  background-color: #1a1a1a;
+  display: flex;
+  padding: 0%;
+  border-bottom: solid 1px rgb(243, 241, 241);
+  margin-top: 0;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.lghidden {
+  margin-right: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+
+.logo img {
+  width: 100px;
+}
+.container {
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0.5rem;
+  }
+
+  .lghidden {
+    margin-right: 1rem;
+  }
+
+  .logo {
+    margin-right: 2rem;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+}

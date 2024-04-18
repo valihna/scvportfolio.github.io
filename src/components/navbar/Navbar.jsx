@@ -3,8 +3,8 @@ import { useClickAway } from "react-use";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { routes } from "./routes";
-
-// import "Navbar.css";
+import logo from "../../assets/logo.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -13,8 +13,8 @@ const Navbar = () => {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div>
-      <div ref={ref} className="lg:hidden">
+    <div className="nav">
+      <div ref={ref} className="lghidden">
         <Hamburger toggled={isOpen} right={10} size={20} toggle={setOpen} />
         <AnimatePresence>
           {isOpen && (
@@ -57,6 +57,9 @@ const Navbar = () => {
             </motion.div>
           )}
         </AnimatePresence>
+      </div>
+      <div className="logo">
+        <img className="logo" src={logo} alt="logo" />
       </div>
     </div>
   );
