@@ -1,0 +1,64 @@
+.about {
+  font-style: italic;
+  font-style: oblique;
+  font-size: x-large;
+  font-family: "Times New Roman";
+  width: 100%;
+}
+.img-container {
+  width: 100%;
+  height: 15rem;
+}
+
+.img-constellation {
+  width: 100%;
+  height: 12rem;
+  filter: grayscale(80%);
+  will-change: filter;
+  transition: filter 300ms;
+}
+.img-constellation:hover {
+  filter: drop-shadow(0 0 2em hsla(45, 100%, 70%, 0.667));
+}
+
+.paragraph {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  font-style: italic;
+  font-size: x-large;
+  font-family: "Times New Roman";
+
+  /* filter: grayscale(80%);
+  will-change: filter;
+  transition: filter 300ms; */
+}
+.paragraphe:hover {
+  :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+  }
+  /* filter: drop-shadow(0 0 2em hsla(45, 100%, 70%, 0.667)); */
+}
+
+@media (max-width: 768px) {
+  .paragraph {
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    font-size: large;
+  }
+
+  .paragraph {
+    font-size: medium;
+  }
+}
