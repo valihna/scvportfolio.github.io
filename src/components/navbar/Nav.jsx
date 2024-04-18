@@ -1,5 +1,5 @@
 import { routes } from "../routes";
-
+import "./Navbar.css";
 const Nav = () => {
   return (
     <ul className="hidden lg:flex lg:items-center gap-5 text-sm">
