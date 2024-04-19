@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import linkedIn from "../../assets/linkedIn.png";
 import github from "../../assets/github.jpg";
 import gmail from "../../assets/gmail.png";
@@ -22,13 +23,9 @@ function Footer() {
         >
           <img className="img" src={github} alt="github" />
         </a>
-        <a
-        // href="https://www.gmail.com/lorealparis/?hl=fr"
-        // target="_blank"
-        // rel="noopener noreferrer"
-        >
+        <Link to="/contact" target="_blank" rel="noopener noreferrer">
           <img className="img" src={gmail} alt="gmail" />
-        </a>
+        </Link>
       </div>
     </footer>
   );
