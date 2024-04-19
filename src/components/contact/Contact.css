@@ -1,0 +1,104 @@
+@keyframes myContact {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.containFormContact {
+  animation: Contact 2s ease 0s 1 normal forwards;
+}
+
+.containFormContact h1 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.containForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.contactContainCadreHaut {
+  margin-top: -130px;
+  text-align: left;
+  margin-left: 215px;
+  visibility: hidden;
+}
+
+.contactContainCadreHaut img {
+  width: 250px;
+  transform: rotate(270deg);
+}
+
+.contactForm {
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.contactForm span {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.contactForm input {
+  margin-bottom: 30px;
+  width: 300px;
+  padding: 5px;
+}
+
+.contactForm textarea {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonsubmit {
+  background-color: white;
+  color: #01c380;
+  font-weight: bold;
+}
+
+.buttonsubmit:hover {
+  color: white;
+  background-color: #01c380;
+  border: 1px solid #01c380;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 1200px) {
+  .contactContainCadreBas,
+  .contactContainCadreHaut {
+    visibility: visible;
+  }
+
+  .contactForm {
+    padding: 50px;
+  }
+
+  .contactForm input {
+    width: 500px;
+  }
+
+  .contactForm textarea {
+    width: 500px;
+    height: 200px;
+  }
+}
