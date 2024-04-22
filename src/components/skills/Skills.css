@@ -43,6 +43,11 @@
   max-width: 100px;
   height: auto;
 }
+.p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: large; /* Taille de police pour les écrans normaux */
+}
 
 @media (max-width: 768px) {
   .p {
@@ -77,5 +82,37 @@
 
   .skills ul li img {
     max-width: 40px;
+  }
+}
+.focus h1 {
+  font-size: 2rem; /* Taille de police pour les écrans normaux */
+}
+
+@media (max-width: 768px) {
+  .focus h1 {
+    font-size: 1.5rem; /* Ajustement de la taille de police pour les écrans plus petits */
+  }
+}
+@media (max-width: 768px) {
+  .p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: medium; /* Ajustement de la taille de police pour les écrans plus petits */
+  }
+}
+
+@media (max-width: 576px) {
+  .p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: small; /* Ajustement supplémentaire pour les écrans encore plus petits */
+  }
+}
+
+@media (max-width: 400px) {
+  .p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: x-small; /* Ajustement supplémentaire pour les écrans très petits */
   }
 }
