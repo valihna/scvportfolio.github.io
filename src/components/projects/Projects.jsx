@@ -1,16 +1,10 @@
-// import Navbar from "../navbar/Navbar";
-// import Footer from "../footer/Footer";
+/* eslint-disable no-unused-vars */
+import React from "react";
 
 function Projects() {
   return (
     <div>
-      projects
-      {/* <div className="navbar">
-        <Navbar />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div> */}
+      <p>projects</p>
     </div>
   );
 }

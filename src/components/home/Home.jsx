@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+import React from "react";
 import { Link } from "react-router-dom";
 import aboutme from "../../assets/aboutme.jpg";
 import projects from "../../assets/projects.png";

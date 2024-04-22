@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
+import React from "react";
 import html from "../../assets/html.png";
 import canva from "../../assets/canva.jpg";
 import css from "../../assets/css.png";
