@@ -3,13 +3,13 @@ import { useClickAway } from "react-use";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { routes } from "./routes";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
-
   useClickAway(ref, () => setOpen(false));
 
   return (
@@ -61,9 +61,11 @@ const Navbar = () => {
         </div>
         <div className="slogan">
           <h2>
-            VSC Web - Transform your vision into an exceptional web experience.
-            {/* VSC Web - Transformez votre vision en une expérience web
-            exceptionnelle. */}
+            <Link to="/home" rel="noopener noreferrer">
+              VSC Web - Transform your vision into an exceptional web
+              experience.
+              {/* VSC Web - Transformez votre vision en une expérience web exceptionnelle. */}
+            </Link>
           </h2>
         </div>
         <div className="logo">
