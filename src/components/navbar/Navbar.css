@@ -18,8 +18,12 @@
   font-family: "Times New Roman";
   align-items: center;
   margin-right: 1rem;
+  will-change: filter;
+  transition: filter 300ms;
 }
-
+.slogan:hover {
+  filter: drop-shadow(0 0 2em hsla(45, 100%, 70%, 0.667));
+}
 .lghidden {
   margin-right: 2rem;
 }
@@ -64,6 +68,7 @@ body {
   }
   .slogan {
     font-size: 3vw;
+    filter: drop-shadow(0 0 2em hsla(45, 100%, 70%, 0.667));
   }
 
   .nav-links {
