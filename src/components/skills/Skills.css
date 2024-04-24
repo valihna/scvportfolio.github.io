@@ -46,7 +46,7 @@
 .p {
   margin-left: 15%;
   margin-right: 15%;
-  font-size: large; /* Taille de police pour les écrans normaux */
+  font-size: large;
 }
 
 @media (max-width: 768px) {
@@ -85,19 +85,19 @@
   }
 }
 .focus h1 {
-  font-size: 2rem; /* Taille de police pour les écrans normaux */
+  font-size: 2rem;
 }
 
 @media (max-width: 768px) {
   .focus h1 {
-    font-size: 1.5rem; /* Ajustement de la taille de police pour les écrans plus petits */
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 768px) {
   .p {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: medium; /* Ajustement de la taille de police pour les écrans plus petits */
+    font-size: medium;
   }
 }
 
@@ -105,7 +105,7 @@
   .p {
     margin-left: 5%;
     margin-right: 5%;
-    font-size: small; /* Ajustement supplémentaire pour les écrans encore plus petits */
+    font-size: small;
   }
 }
 
@@ -113,6 +113,6 @@
   .p {
     margin-left: 3%;
     margin-right: 3%;
-    font-size: x-small; /* Ajustement supplémentaire pour les écrans très petits */
+    font-size: x-small;
   }
 }
