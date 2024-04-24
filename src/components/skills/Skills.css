@@ -1,5 +1,6 @@
 .skills-focus {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .focus {
@@ -16,7 +17,7 @@
   font-size: large;
 }
 
-.stack {
+.stack-skills {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
