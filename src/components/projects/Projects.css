@@ -1,18 +1,21 @@
 .projects {
-  /* display: flex;
-  flex-direction: column; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  font-style: italic;
+  font-style: oblique;
+  font-size: large;
+  font-family: "Times New Roman";
+}
+
+.global-projects {
+  flex-basis: calc(45% - 1rem);
 }
 
 .project-name {
   margin-bottom: 2rem;
   margin-top: 1rem;
-  align-items: center;
   font-style: italic;
   font-style: oblique;
   font-size: x-large;
@@ -21,55 +24,27 @@
 
 .project-cards {
   margin-top: 2rem;
-  width: calc(50% - 1rem);
   height: auto;
   margin-bottom: 2rem;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 1rem;
-  /* box-sizing: border-box; */
 }
 
 .langagesOutils {
-  /* display: inline-block; */
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.imageSite {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-}
-
-.langagesOutils ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.langagesOutils ul li {
-  margin: 0.5rem;
-}
-
-.langagesOutils ul li img {
-  max-width: 40px;
+.stack li img {
+  max-width: 80px;
 }
 
 .stack {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-}
-
-.stack li {
-  margin: 0.5rem;
-}
-
-.stack li img {
-  max-width: 30px;
 }
 
 @media (max-width: 768px) {

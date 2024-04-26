@@ -1,6 +1,6 @@
 .nav {
   width: 100vw;
-  height: 8rem;
+  height: 6rem;
   background-color: #1a1a1a;
   display: flex;
   padding: 0%;
@@ -14,7 +14,7 @@
 .slogan {
   font-style: italic;
   font-style: oblique;
-  font-size: medium;
+  font-size: smaller;
   font-family: "Times New Roman";
   align-items: center;
   margin-right: 1rem;

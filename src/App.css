@@ -6,8 +6,9 @@
 }
 
 .vsc {
-  height: 6em;
-  font-size: 40px;
+  margin-top: 2rem;
+  height: 5em;
+  font-size: 35px;
   border-radius: 45% 45%;
   padding: 1.5em;
   filter: grayscale(80%);

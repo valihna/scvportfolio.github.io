@@ -1,13 +1,13 @@
 .skills-focus {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .focus {
   margin-bottom: 2rem;
   font-style: italic;
   font-style: oblique;
-  font-size: x-large;
+  font-size: medium;
   font-family: "Times New Roman";
 }
 
@@ -47,7 +47,7 @@
 .p {
   margin-left: 15%;
   margin-right: 15%;
-  font-size: large;
+  font-size: medium;
 }
 
 @media (max-width: 768px) {
