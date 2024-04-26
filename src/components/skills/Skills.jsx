@@ -40,7 +40,7 @@ function Skills() {
           votre entreprise. */}
         </p>
       </div>
-      <div className="stack">
+      <div className="stack-skills">
         <h4>Stack</h4>
         <div className="skills">
           <ul>

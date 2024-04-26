@@ -59,7 +59,7 @@ function Contact() {
 
   return (
     <div className="containFormContact">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <div className="containForm">
         <form onSubmit={handleSubmit} className="contactForm">
           <div>

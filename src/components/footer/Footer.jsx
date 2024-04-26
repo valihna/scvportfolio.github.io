@@ -23,7 +23,7 @@ function Footer() {
         >
           <img className="img" src={github} alt="github" />
         </a>
-        <Link to="/contact" target="_blank" rel="noopener noreferrer">
+        <Link to="/contact" rel="noopener noreferrer">
           <img className="img" src={gmail} alt="gmail" />
         </Link>
       </div>
