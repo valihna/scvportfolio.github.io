@@ -1,5 +1,5 @@
 import React from "react";
-import { createRoot } from "react-dom/client"; // Importing createRoot from react-dom/client
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
