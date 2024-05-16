@@ -27,7 +27,7 @@ function Projects() {
               src="https://www.youtube.com/embed/wdYOhhNVyps"
               title="Eating Nam Nam Video"
               frameBorder="0"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <div className="langages-outils">
               <h3> Stack </h3>
@@ -72,7 +72,7 @@ function Projects() {
               src="https://www.youtube.com/embed/MbkW-HWiLns"
               title="Cent Pression Video"
               frameBorder="0"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <div className="langages-outils">
               <h3> Stack </h3>
@@ -117,7 +117,7 @@ function Projects() {
               src="https://www.youtube.com/embed/HTD-Qbt0Gok"
               title="Hakathon Loréal Video"
               frameBorder="0"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <div className="langages-outils">
               <h3> Stack </h3>
@@ -162,7 +162,7 @@ function Projects() {
               src="https://www.youtube.com/embed/5klnBXn97fU"
               title="Quiz Biarritz Video"
               frameBorder="0"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <div className="langages-outils">
               <h3> Stack </h3>
