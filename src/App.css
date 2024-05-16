@@ -33,21 +33,13 @@
   }
   to {
     opacity: 0;
-    transform: translateY(-20px); /* Ajustez la valeur selon votre préférence */
+    transform: translateY(-20px);
   }
 }
 
 .fade-out {
   animation: fadeOut 1s ease-in-out;
 }
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
