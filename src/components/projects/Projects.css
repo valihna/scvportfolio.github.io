@@ -11,6 +11,10 @@
 
 .global-projects {
   flex-basis: calc(45% - 1rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .project-name {
@@ -24,6 +28,8 @@
 
 .project-cards {
   margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   height: auto;
   margin-bottom: 2rem;
   border: 1px solid #ccc;
@@ -31,18 +37,47 @@
   padding: 1rem;
 }
 
-.langagesOutils {
+.name-stack {
+  margin-bottom: 1rem;
+}
+
+.langages-outils {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .langages-outils {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    flex-wrap: wrap;
+  }
+}
+
+.langages-outils > div {
+  flex: 1 0 45%;
+  margin: 0.25rem;
+  max-width: 10px;
 }
 
 .stack li img {
-  max-width: 80px;
+  max-width: 35px;
+}
+
+.stack li {
+  list-style: none;
 }
 
 .stack {
+  margin-bottom: 0.5rem;
   display: flex;
   justify-content: center;
 }
