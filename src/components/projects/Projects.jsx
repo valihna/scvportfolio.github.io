@@ -30,7 +30,9 @@ function Projects() {
               allowFullScreen
             ></iframe>
             <div className="langages-outils">
-              <h3> Stack </h3>
+              <div className="name-stack">
+                <h3> Stack </h3>
+              </div>
               <div className="stack">
                 <li>
                   <img src={react} alt="Logo React" />
