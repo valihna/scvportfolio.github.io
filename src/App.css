@@ -22,6 +22,24 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.app-container {
+  transition: opacity 1s, transform 1s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px); /* Ajustez la valeur selon votre préférence */
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-in-out;
+}
 /* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
