@@ -6,39 +6,32 @@ import Footer from "./components/footer/Footer";
 import "./App.css";
 
 function App() {
-  const [showPage, setShowPage] = useState(true);
+  const [showIntro, setShowIntro] = useState(true);
+  const navigate = useNavigate();
+
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowPage(false);
-    }, 4000);
+      setShowIntro(false);
+      navigate("/home");
+    }, 3000);
 
     return () => clearTimeout(timer);
-  }, []);
-
-  const navigateToHome = useNavigate();
-
-  useEffect(() => {
-    if (!showPage) {
-      setTimeout(() => {
-        navigateToHome("/home");
-      }, 1000);
-    }
-  }, [showPage, navigateToHome]);
+  }, [navigate]);
 
   return (
     <div>
-      <div className={showPage ? "" : "fade-out"}>
-        <Navbar />
-        <Outlet />
-        <div>
+      {showIntro ? (
+        <div className="intro">
           <img className="vsc" src={vsc} alt="vsc" />
           <h1>Valériane Sudre Chevalier</h1>
         </div>
-        <div className="card"></div>
-        <div className="footer">
+      ) : (
+        <div>
+          <Navbar />
+          <Outlet />
           <Footer />
         </div>
-      </div>
+      )}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 .about {
+  margin-top: 8rem;
   font-style: italic;
   font-style: oblique;
   font-size: larger;
@@ -31,10 +32,9 @@
   font-style: italic;
   font-size: large;
   font-family: "Times New Roman";
-
-  /* filter: grayscale(80%);
-  will-change: filter;
-  transition: filter 300ms; */
+}
+.app-about {
+  margin-bottom: 5rem;
 }
 .paragraphe:hover {
   :hover {

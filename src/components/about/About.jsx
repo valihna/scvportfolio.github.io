@@ -1,4 +1,6 @@
 import constellation from "../../assets/constellation.png";
+import vsc from "../../assets/vsc.jpg";
+
 import "./About.css";
 
 function About() {
@@ -27,6 +29,10 @@ function About() {
           everything I do are the driving forces behind my career. <br />
           {/*  Mon engagement envers l'excellence et mon désir d'apporter un impact positif dans tout ce que j'entreprends, sont les forces motrices qui guident ma carrière.*/}
         </p>
+      </div>
+      <div className="app-about">
+        <img className="vsc" src={vsc} alt="vsc" />
+        <h1>Valériane Sudre Chevalier</h1>
       </div>
     </div>
   );

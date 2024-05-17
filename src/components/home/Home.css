@@ -1,5 +1,5 @@
 .container-home {
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 30%;
   margin-left: 15%;
   margin-right: 15%;
@@ -52,11 +52,13 @@
 @media (max-width: 992px) {
   .container-home {
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 40%;
   }
 }
 
 @media (max-width: 480px) {
   .container-home {
     grid-template-columns: 1fr;
+    margin-top: 40%;
   }
 }
