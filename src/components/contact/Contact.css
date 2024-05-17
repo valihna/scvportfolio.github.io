@@ -12,6 +12,7 @@
 
 .containFormContact {
   animation: Contact 2s ease 0s 1 normal forwards;
+  margin-top: 8rem;
 }
 
 .containFormContact h1 {

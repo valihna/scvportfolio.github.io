@@ -2,8 +2,8 @@ import { useRef, useState } from "react";
 import { useClickAway } from "react-use";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
-import { routes } from "./routes";
 import { Link } from "react-router-dom";
+import { routes } from "./routes";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div className="global-nav">
+    <div className="global-nav fixed-nav">
       <div className="nav">
         <div ref={ref} className="lghidden">
           <Hamburger toggled={isOpen} right={10} size={20} toggle={setOpen} />
@@ -43,14 +43,14 @@ const Navbar = () => {
                         }}
                         className="w-full p-[0.08rem] rounded-xl bg-gradient-to-tr from-neutral-800 via-neutral-950 to-neutral-700"
                       >
-                        <a
-                          onClick={() => setOpen((prev) => !prev)}
+                        <Link
+                          onClick={() => setOpen(false)}
                           className="flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
-                          href={link}
+                          to={link}
                         >
                           <span className="flex gap-1 text-lg">{title}</span>
                           <Icon className="text-xl" />
-                        </a>
+                        </Link>
                       </motion.li>
                     );
                   })}
@@ -64,7 +64,6 @@ const Navbar = () => {
             <Link to="/home" rel="noopener noreferrer">
               VSC Web - Transform your vision into an exceptional web
               experience.
-              {/* VSC Web - Transformez votre vision en une expérience web exceptionnelle. */}
             </Link>
           </h2>
         </div>
