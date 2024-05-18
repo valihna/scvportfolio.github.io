@@ -64,8 +64,8 @@ function Contact() {
         <form onSubmit={handleSubmit} className="contactForm">
           <div>
             <Input
-              label="Nom"
-              name="lastname"
+              label="Name"
+              name="user_name"
               type="text"
               value={formValue.lastname}
               onChange={handleChange}
@@ -73,8 +73,8 @@ function Contact() {
           </div>
           <div>
             <Input
-              label="Prénom"
-              name="firstname"
+              label="First name"
+              name="first_name"
               type="text"
               value={formValue.firstname}
               onChange={handleChange}
@@ -83,9 +83,9 @@ function Contact() {
           </div>
           <div>
             <Input
-              label="Votre mail"
-              name="mail"
-              type="text"
+              label="Your email"
+              name="user_email"
+              type="email"
               value={formValue.mail}
               onChange={handleChange}
               required
