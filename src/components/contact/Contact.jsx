@@ -10,9 +10,9 @@ import "./Contact.css";
 
 function Contact() {
   const [formValue, setFormValue] = useState({
-    lastname: "",
-    firstname: "",
-    mail: "",
+    user_name: "",
+    first_name: "",
+    user_email: "",
     message: "",
   });
 
