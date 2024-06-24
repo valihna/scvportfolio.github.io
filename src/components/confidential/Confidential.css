@@ -1,0 +1,32 @@
+.conf-global {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.conf-global h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.conf-global h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.conf-global h4,
+.conf-global p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .conf-global {
+    margin: 20px;
+    padding: 15px;
+  }
+}
