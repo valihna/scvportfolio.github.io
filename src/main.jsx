@@ -8,7 +8,7 @@ import About from "./components/about/About.jsx";
 import Projects from "./components/projects/Projects.jsx";
 import Skills from "./components/skills/Skills.jsx";
 import Contact from "./components/contact/Contact.jsx";
-
+import Confidential from "./components/confidential/Confidential.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/confidential",
+        element: <Confidential />,
       },
     ],
   },

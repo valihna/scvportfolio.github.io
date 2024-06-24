@@ -7,22 +7,28 @@
   padding: 5px;
   border-top: solid 1px rgb(243, 241, 241);
   margin-top: 100px;
+  margin-bottom: 0px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .footer img {
-  width: 35px;
+  width: 40px;
 }
 
 .img {
   border-radius: 15% 15%;
 }
+.h6 {
+  text-align: center; /* Center text for better alignment */
+  color: #f3f1f1;
+}
+
 @media screen and (min-width: 768px) {
   .footer img {
     width: 50px;
