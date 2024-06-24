@@ -27,6 +27,11 @@ function Footer() {
           <img className="img" src={gmail} alt="gmail" />
         </Link>
       </div>
+      <div className="conf-footer">
+        <Link to="/confidential" rel="noopener noreferrer">
+          <h6> © 2024 | Vsc Web. All rights reserved. </h6>
+        </Link>
+      </div>
     </footer>
   );
 }
