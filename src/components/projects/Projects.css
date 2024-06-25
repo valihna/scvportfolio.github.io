@@ -72,10 +72,6 @@
   max-width: 35px;
 }
 
-.stack li {
-  list-style: none;
-}
-
 .stack {
   margin-bottom: 0.5rem;
   display: flex;
