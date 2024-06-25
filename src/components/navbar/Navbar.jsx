@@ -28,7 +28,7 @@ const Navbar = () => {
               >
                 <ul className="grid gap-2">
                   {routes.map((route, idx) => {
-                    const { Icon, link, title } = route;
+                    const { link, title } = route;
 
                     return (
                       <motion.li
@@ -49,7 +49,6 @@ const Navbar = () => {
                           to={link}
                         >
                           <span className="flex gap-1 text-lg">{title}</span>
-                          <Icon className="text-xl" />
                         </Link>
                       </motion.li>
                     );
