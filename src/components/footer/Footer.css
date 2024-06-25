@@ -6,15 +6,15 @@
   background-color: rgb(26, 24, 24);
   padding: 5px;
   border-top: solid 1px rgb(243, 241, 241);
-  margin-top: 100px;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin-right: 40px; */
+  margin: 0;
+  padding: 0;
 }
 
 .footer img {
@@ -24,9 +24,16 @@
 .img {
   border-radius: 15% 15%;
 }
-.h6 {
-  text-align: center; /* Center text for better alignment */
+
+.conf-footer {
+  margin: 5px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.conf-footer h6 {
   color: #f3f1f1;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -34,7 +34,9 @@ function Projects() {
                 <h3> Stack </h3>
               </div>
               <div className="stack">
-                <li>
+                React Javascript Express Git Html Css MySql Github Postman Figma
+                Trello
+                {/* <li>
                   <img src={react} alt="Logo React" />
                 </li>
                 <li>
@@ -57,7 +59,7 @@ function Projects() {
                 </li>
                 <li>
                   <img src={github} alt="Logo GitHub" />
-                </li>
+                </li> */}
               </div>
             </div>
           </div>
@@ -79,7 +81,9 @@ function Projects() {
             <div className="langages-outils">
               <h3> Stack </h3>
               <div className="stack">
-                <li>
+                React Javascript Express Git Html Css MySql Github Postman Figma
+                Trello
+                {/* <li>
                   <img src={react} alt="Logo React" />
                 </li>
                 <li>
@@ -102,7 +106,7 @@ function Projects() {
                 </li>
                 <li>
                   <img src={github} alt="Logo GitHub" />
-                </li>
+                </li> */}
               </div>
             </div>
           </div>
@@ -124,6 +128,9 @@ function Projects() {
             <div className="langages-outils">
               <h3> Stack </h3>
               <div className="stack">
+                React Javascript Express Git Html Css MySql Github Postman Figma
+                Trello
+                {/*
                 <li>
                   <img src={react} alt="Logo React" />
                 </li>
@@ -147,7 +154,7 @@ function Projects() {
                 </li>
                 <li>
                   <img src={github} alt="Logo GitHub" />
-                </li>
+                </li> */}
               </div>
             </div>
           </div>
@@ -169,7 +176,8 @@ function Projects() {
             <div className="langages-outils">
               <h3> Stack </h3>
               <div className="stack">
-                <li>
+                React Javascript Git Html Css Github Figma Trello
+                {/* <li>
                   <img src={react} alt="Logo React" />
                 </li>
                 <li>
@@ -189,7 +197,7 @@ function Projects() {
                 </li>
                 <li>
                   <img src={github} alt="Logo GitHub" />
-                </li>
+                </li> */}
               </div>
             </div>
           </div>
