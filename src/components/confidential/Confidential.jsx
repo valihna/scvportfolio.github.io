@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import "./Confidential.css";
+
 function Confidential() {
   return (
     <div className="conf-global">
